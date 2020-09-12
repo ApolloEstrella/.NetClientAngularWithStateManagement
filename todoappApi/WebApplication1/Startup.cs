@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using WebApplication1.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebApplication1
 {
@@ -26,6 +28,7 @@ namespace WebApplication1
         readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<mssql_serverContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
             /*services.AddCors(c =>
             {
                 c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());

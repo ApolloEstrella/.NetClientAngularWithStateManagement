@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TestProjects\\Angular\\Ngrx8StoreSample\\todoappApi\\WebApplication1\\WebApplication1.csproj": {}
+    "D:\\TestProjects\\Angular\\.NetClientAngularWithStateManagement\\todoappApi\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\TestProjects\\Angular\\Ngrx8StoreSample\\todoappApi\\WebApplication1\\WebApplication1.csproj": {
+    "D:\\TestProjects\\Angular\\.NetClientAngularWithStateManagement\\todoappApi\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TestProjects\\Angular\\Ngrx8StoreSample\\todoappApi\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "D:\\TestProjects\\Angular\\.NetClientAngularWithStateManagement\\todoappApi\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "D:\\TestProjects\\Angular\\Ngrx8StoreSample\\todoappApi\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "D:\\TestProjects\\Angular\\.NetClientAngularWithStateManagement\\todoappApi\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\stars\\.nuget\\packages\\",
-        "outputPath": "D:\\TestProjects\\Angular\\Ngrx8StoreSample\\todoappApi\\WebApplication1\\obj\\",
+        "outputPath": "D:\\TestProjects\\Angular\\.NetClientAngularWithStateManagement\\todoappApi\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
